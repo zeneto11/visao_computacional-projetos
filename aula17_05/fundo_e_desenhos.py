@@ -7,7 +7,7 @@ canvas = np.ones((300, 400, 3)) * 255 # faz um fundo branco
 azul = (255, 0, 0)
 cv2.line(canvas, (0,0), (400,300), azul)
 
-# desenhar linha azul diagonal
+# desenhar linha verde vertical
 verde = (0, 255, 0)
 cv2.line(canvas, (200,0), (200,300), verde, 3)
 
