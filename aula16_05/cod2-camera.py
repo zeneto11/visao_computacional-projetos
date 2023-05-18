@@ -6,7 +6,7 @@ while (1): # loop para continuar aparecendo
     ret,imagem = captura.read() # atribuir a cap
     
     (b, g, r) = imagem[0,0] # selecionando 1° pixel da imagem
-    print('Azul', b, '| Verde', g, '| Vermelho', r) # descobrir qual valor do pixel especificado
+    print('| Vermelho', r, '| Verde', g, 'Azul', b) # descobrir qual valor do pixel especificado
     
     imagem[2,2] = (255, 0, 0) # deixando um pixel azul
     imagem[30:50,] = (255, 0, 0) # deixando uma faixa azul
