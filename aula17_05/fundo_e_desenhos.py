@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-canvas = np.ones((300, 400, 3)) * 255 # faz um fundo branco
+canvas = np.ones((300, 400, 3)) * 255 # faz uma imagem de fundo branco
 
 # desenhar linha azul diagonal
 azul = (255, 0, 0)
