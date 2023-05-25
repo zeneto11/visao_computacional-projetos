@@ -1,6 +1,6 @@
 import cv2
 
-imagem = cv2.imread('aula16_05/images/zebra.jpg') # obter a imagem
+imagem = cv2.imread('aula05_16/images/zebra.jpg') # obter a imagem
 
 for y in range(imagem.shape[0]):
     for x in range(imagem.shape[1]):
@@ -11,4 +11,4 @@ for y in range(imagem.shape[0]):
 cv2.imshow('Zebra dos cria', imagem) # exibir imagem em uma nova janela
 cv2.waitKey(0) # faz com que a imagem fique sendo mostrada
 
-cv2.imwrite('aula16_05/images/zebra-flamenguista.jpg', imagem) # exportar arquivo da imagem
+cv2.imwrite('aula05_16/images/zebra-flamenguista.jpg', imagem) # exportar arquivo da imagem
